@@ -1,11 +1,11 @@
 <?php
-namespace Ufox\Validators;
+namespace FS\Validators;
 
 
-use Ufox\Validators\Contracts\UFoxValidator;
+use FS\Validators\Contracts\AbstractValidator;
 use Carbon\Carbon;
 
-class Data extends UFoxValidator
+class Data extends AbstractValidator
 {
     public function __construct ()
     {

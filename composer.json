@@ -1,12 +1,12 @@
 {
-	"name": "ufox/validators",
+	"name": "fellipesantana/validators",
 	"description": "Validators de extensao ao padrao do Laravel",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Fellipe Santana",
-			"email": "fellipe.santana@ufoxtecnologia.com.br"
+			"email": "fellipe.santana@gmail.com"
 		}
 	],
 	"require": {
@@ -14,6 +14,6 @@
         "laravel/framework": "5.*"
     },
     "autoload": {
-        "psr-4": {"Ufox\\Validators\\": "src/"}
+        "psr-4": {"FS\\Validators\\": "src/"}
     }
 }

@@ -1,7 +1,7 @@
 <?php
-namespace Ufox\Validators\Contracts;
+namespace FS\Validators\Contracts;
 
-abstract class UFoxValidator
+abstract class AbstractValidator
 {
     /**
      * @var string
@@ -14,7 +14,7 @@ abstract class UFoxValidator
     protected $errorMessage;
 
     /**
-     * UFoxValidator constructor.
+     * AbstractValidator constructor.
      * @param string $regexp
      * @param string $errorMessage
      */

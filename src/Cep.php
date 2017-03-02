@@ -1,10 +1,10 @@
 <?php
-namespace Ufox\Validators;
+namespace FS\Validators;
 
 
-use Ufox\Validators\Contracts\UFoxValidator;
+use FS\Validators\Contracts\AbstractValidator;
 
-class Cep extends UFoxValidator
+class Cep extends AbstractValidator
 {
     public function __construct()
     {
