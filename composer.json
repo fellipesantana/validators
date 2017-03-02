@@ -1,6 +1,6 @@
 {
 	"name": "fellipesantana/validators",
-	"version": "1.0",
+	"version": "1.0.0",
 	"description": "Validators de extensao ao padrao do Laravel",
 	"type": "library",
 	"license": "MIT",
