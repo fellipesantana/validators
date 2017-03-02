@@ -10,6 +10,7 @@
 			"email": "fellipe.santana@gmail.com"
 		}
 	],
+	"minimum-stability": "dev",
 	"require": {
         "php": ">=5.3,<8.0-DEV",
         "laravel/framework": "5.*"
