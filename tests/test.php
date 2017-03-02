@@ -2,13 +2,13 @@
 
 require_once "/../vendor/autoload.php";
 
-use Ufox\Validators\Cep;
-use Ufox\Validators\CPF;
-use Ufox\Validators\Data;
-use Ufox\Validators\DDD;
-use Ufox\Validators\Linha;
-use Ufox\Validators\Nome;
-use Ufox\Validators\UF;
+use FS\Validators\Cep;
+use FS\Validators\CPF;
+use FS\Validators\Data;
+use FS\Validators\DDD;
+use FS\Validators\Linha;
+use FS\Validators\Nome;
+use FS\Validators\UF;
 
 $cep 	= new Cep ();
 $cpf 	= new CPF ();
