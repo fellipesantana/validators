@@ -1,4 +1,4 @@
-# FS/Validators
+# FellipeSantana/Validators
 
 ### Configuração
 Para que o validator desejado seja disponibilizado ao projeto deve ser incluído no arquivo `App\Providers\AppServiceProvider` no método `boot` como demonstrado na linha abaixo com o validator para CEP:
