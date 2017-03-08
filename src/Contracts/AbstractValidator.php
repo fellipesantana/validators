@@ -1,5 +1,5 @@
 <?php
-namespace FS\Validators\Contracts;
+namespace FellipeSantana\Validators\Contracts;
 
 abstract class AbstractValidator
 {

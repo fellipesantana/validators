@@ -2,13 +2,13 @@
 
 require_once "/../vendor/autoload.php";
 
-use FS\Validators\Cep;
-use FS\Validators\CPF;
-use FS\Validators\Data;
-use FS\Validators\DDD;
-use FS\Validators\Linha;
-use FS\Validators\Nome;
-use FS\Validators\UF;
+use FellipeSantana\Validators\Cep;
+use FellipeSantana\Validators\CPF;
+use FellipeSantana\Validators\Data;
+use FellipeSantana\Validators\DDD;
+use FellipeSantana\Validators\Linha;
+use FellipeSantana\Validators\Nome;
+use FellipeSantana\Validators\UF;
 
 $cep 	= new Cep ();
 $cpf 	= new CPF ();

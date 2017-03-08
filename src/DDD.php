@@ -1,8 +1,8 @@
 <?php
-namespace FS\Validators;
+namespace FellipeSantana\Validators;
 
 
-use FS\Validators\Contracts\AbstractValidator;
+use FellipeSantana\Validators\Contracts\AbstractValidator;
 
 class DDD extends AbstractValidator
 {
